@@ -9,7 +9,6 @@ export function SigninBtn() {
     const fetchProviders = async () => {
       const response = await getProviders();
       setProviders(response);
-      console.log(response);
     };
 
     fetchProviders();
